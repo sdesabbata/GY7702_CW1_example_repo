@@ -1,0 +1,113 @@
+---
+title: "GY7702 Assignment"
+author: "Student ID: 1234567890"
+date: "18/12/2020"
+urlcolor: blue
+output:
+  pdf_document: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls())
+```
+
+
+# Introduction 
+
+This document was created to meet the requirements of GY7702 R for Data Science at University of Leicester. It was designed and created in R Markdown, a markup language that allows users to create documents that can be formatted to embed code blocks, code outputs and hyperlinks.When the R Markdown file is compiled, the markup language is hidden and the document is displayed in plain text.
+
+This content was created using [R](https://www.r-project.org/), [Rstudio](https://rstudio.com/), [RMarkdown](https://rmarkdown.rstudio.com/) and [GitHub](https://github.com/). 
+
+For further information regarding the source code, data and libraries used in this assignment, please see the project's GitHub page at [https://bit.ly/3arpcv8](https://bit.ly/3arpcv8) (created using [Bitly.com](https://bitly.com/)). 
+
+## Materials 
+
+The libraries used in this assignment: 
+```{r load_libraries, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(palmerpenguins)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(readr)
+library(tinytex)
+library(lubridate)
+library(gridExtra)
+library(ggplot2)
+```
+
+Contains public sector information licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/): covid19_cases_20200301_20201017.csv and lad19_population.csv. See also [Coronavirus (COVID-19) in the UK](https://coronavirus.data.gov.uk/details/cases) and [Office for National Statistics](https://geoportal.statistics.gov.uk/).
+
+## References
+
+The sudent would like to acknowledge that this document includes teaching materials from Dr Stefano De Sabbata for the module [GY7702 R for Data Science](https://le.ac.uk/modules/2020/gy7702). Stefano's teaching materials can be found [here](https://sdesabbata.github.io/granolarr/)  
+
+R for Data Science by Garrett Grolemund and Hadley Wickham, O’Reilly Media, 2016. [See online book](https://r4ds.had.co.nz/)  
+
+
+### Note to reader
+
+Where a function is mentioned for the **first time**, a brief explanation will be given before the code block. 
+Thereafter, this explanation will be dismissed. 
+
+
+
+# Question 1
+
+A vector of 25 numbers between 1 and 7 are listed below. These values represent
+answers to a survey question 
+
+```{r}
+## NA 3 4 4 5 2 4 NA 6 3 5 4 0 5 7 5 NA 5 2 4 NA 3 3 5 NA
+```
+
+*  1 = Completely disagree
+*  2 = Disagree
+*  3 = Somehow disagree
+*  4 = Neither agree or disagree
+*  5 = Somehow agree
+*  6 = Agree
+*  7 = Completely agree
+* NA = missing value
+
+
+## Question 1.1 
+
+Write the code necessary to check whether all participants to the survey either 
+completely disagree or completely agree, once the missing values are excluded
+
+ 
+```{r}
+#code
+```
+
+
+```{r}
+#code
+```
+
+## Question 1.2
+
+**Write the code necessary to extract the indexes related to the participants 
+in the survey who at least somehow agree or more.**
+
+```{r}
+#code
+```
+
+
+# Question 2
+
+...
+
+# Question 3
+
+... 
+
+# Question 4 
+
+```{r, echo=FALSE}
+rm(list = ls())
+```
