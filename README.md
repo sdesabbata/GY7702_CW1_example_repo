@@ -35,7 +35,7 @@ The dependencies for the assignment are:
 Note, some of these (dplyr and ggplot2 for example) are included within the tidyverse. However, in the spirit of transparency I thought I would list them all 
 
 ## :evergreen_tree: Data <a name="data"></a>
-The data used in this assignment is in [data](https://github.com/sdesabbata/GY7702_CW1_example_repo/tree/main/data). There are two .csv files:
+The data used in this assignment is in [data](https://github.com/sdesabbata/GY7702_CW1_example_repo/tree/master/data). There are two .csv files:
 * **covid19_cases_20200301_20201017.csv**
   + UK Covid-19 daily and cumulative cases 01/03/2020 - 17/10/2020 
 * **lad19_population.csv**
